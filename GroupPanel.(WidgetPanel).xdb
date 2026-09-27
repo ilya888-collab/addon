@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>GroupPanel</Name>
+	<Children>
+		<Item href="GroupContainer.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+	</Children>
+
+	<Placement>
+		<sizingWidget href="GroupContainer.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_CHILDREN</Sizing>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>
