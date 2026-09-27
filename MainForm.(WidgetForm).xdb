@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetForm>
+	<Name>BackToLife</Name>
+	<Priority>10000</Priority>
+	<Children>
+		<Item href="OptionsButton/OptionsButton.(WidgetButton).xdb#xpointer(/WidgetPanel)" />
+
+		<Item href="OptionsPanel/OptionsPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+
+		<Item href="OptionsPanel/GroupPanel/GroupPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="OptionsPanel/CheckboxPanel/CheckboxPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="OptionsPanel/TipPanel/dscBorder.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Text/Text.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+	<!--<TransparentInput>false</TransparentInput>-->
+	<PickChildrenOnly>true</PickChildrenOnly>
+</WidgetForm>
